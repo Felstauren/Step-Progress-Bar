@@ -7,10 +7,6 @@ body {
     border: 1px solid red;
 }
 
-.yellowBox {
-
-}
-
 #container  {
     display: flex;
     gap:100px;
@@ -19,16 +15,7 @@ body {
     top: 400px;
 }
 
-
-.punkt:active {
-    border: 4px solid green;
-    background-color: white;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-}
-
-.punkt {
+#punktfirst {
     border: 4px solid gray;
     background-color: white;
     border-radius: 50%;
@@ -36,7 +23,41 @@ body {
     width: 30px;
 }
 
-.line1 {
+#punktsecond {
+    border: 4px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#punktthird {
+    border: 4px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#punktfour {
+    border: 4px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#punktfive {
+    border: 4px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+#line1 {
     width: 105px;
     background-color: gray;
     height: 4px;
@@ -45,7 +66,7 @@ body {
     left:30px
 }
 
-.line2 {
+#line2 {
     width: 105px;
     background-color: gray;
     height: 4px;
@@ -54,7 +75,7 @@ body {
     left:30px
 }
 
-.line3 {
+#line3 {
     width: 105px;
     background-color: gray;
     height: 4px;
@@ -63,7 +84,7 @@ body {
     left:30px
 }
 
-.line4 {
+#line4 {
     width: 105px;
     background-color: gray;
     height: 4px;
@@ -72,45 +93,22 @@ body {
     left:30px
 }
 
-#check1 {
+.positionI {
     position: relative;
-    top:5px;
-    left: 6px; 
-}
-
-#xmark2 {
-    position: relative;
-    top:5px;
-    left: 8px; 
-}
-
-#xmark3 {
-    position: relative;
-    top:5px;
-    left: 8px; 
-}
-
-#xmark4 {
-    position: relative;
-    top:5px;
-    left: 8px; 
-}
-
-#xmark5 {
-    position: relative;
-    top:5px;
+    top:6px;
     left: 8px; 
 }
 
 .arrow {
     display: flex;
-    gap: 70px;
+    gap: 80px;
     justify-content: center;
     position: relative;
     top:470px;
+    text-align: center;
 }
 
-.arrowleft:active {
+#arrowPosition {
     border: 4px solid blueviolet;
     width: 50px;
     height: 40px;
@@ -118,52 +116,22 @@ body {
     position: relative;
     color: white;
     border-radius: 5%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-size: 40px;
     opacity: 80%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 }
 
-.arrowright:active {
-    border: 4px solid blueviolet;
-    width: 50px;
-    height: 40px;
-    background-color: blueviolet;
-    position: relative;
-    color: white;
-    border-radius: 5%;
-    opacity: 80%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+#arrowright:hover{
+    cursor: pointer;
+    opacity: 90%;
 }
 
-.arrowleft {
-    border: 4px solid blueviolet;
-    width: 50px;
-    height: 40px;
-    background-color: blueviolet;
-    position: relative;
-    color: white;
-    border-radius: 5%;
-    opacity: 40%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-
-.arrowright {
-    border: 4px solid blueviolet;
-    width: 50px;
-    height: 40px;
-    background-color: blueviolet;
-    position: relative;
-    color: white;
-    border-radius: 5%;
-    opacity: 80%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+#arrowleft:hover{
+    cursor: pointer;
+    opacity: 90%;
 }
 
 
 
-.arrow i {
-    position: relative;
-    left: 20%;
-    top: 10%;
-    font-size:30px;
-}
-
+ 

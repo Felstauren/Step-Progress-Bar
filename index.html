@@ -8,46 +8,48 @@
     <script src="https://kit.fontawesome.com/473a3859e3.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <script defer src="index.js" ></script>
     <div class="yellowBox">
         <div id="container">
 
-            <div class="punkt first">
-                <i id="check1" class="fa-solid fa-check"></i>
+            <div id="punktfirst">
+                <i id="check1" class="fa-solid fa-check positionI"></i>
             <p id="Text">Start</p>
-            <div class="line1"></div>
+            <div id="line1"></div>
             </div>
         
-            <div class="punkt second">
-                <i id="xmark2" class="fa-solid fa-xmark"></i>
+            <div id="punktsecond">
+                <i id="xmark2" class="fa-solid fa-xmark positionI"></i>
+                <i id="check2" class="fa-solid fa-check positionI" style="display: none;"></i>
             <p id="Text">Step 1</p>
-            <div class="line2"></div>
+            <div id="line2"></div>
             </div>
             
-            <div class="punkt third">
-                <i id="xmark3" class="fa-solid fa-xmark"></i>
+            <div id="punktthird">
+                <i id="xmark3" class="fa-solid fa-xmark positionI"></i>
                 <p id="Text">Step 2</p>
-                <div class="line3"></div>
+                <div id="line3"></div>
             </div>
              
-            <div class="punkt four">
-                <i id="xmark4" class="fa-solid fa-xmark"></i>
+            <div id="punktfour">
+                <i id="xmark4" class="fa-solid fa-xmark positionI"></i>
                 <p id="Text">Step 3</p>
-                <div class="line4"></div>
+                <div id="line4"></div>
             </div>
             
-            <div class="punkt five">
-                <i id="xmark5" class="fa-solid fa-xmark"></i>
+            <div id="punktfive">
+                <i id="xmark5" class="fa-solid fa-xmark positionI"></i>
                 <p id="Text">Final</p>
             </div>
 
         </div>
 
         <div class="arrow">
-            <div class="arrowleft">
-                <i class="fa-solid fa-arrow-left"></i>
+            <div id="arrowleft">
+                <i class="fa-solid fa-arrow-left" id="arrowPosition" onclick="back()" ></i>
             </div>
-            <div class="arrowright">
-                <i class="fa-solid fa-arrow-right"></i>
+            <div id="arrowright">
+                <i class="fa-solid fa-arrow-right" id="arrowPosition" onclick="further()"></i>
             </div>
         </div>
     </div>
@@ -58,6 +60,5 @@
     
     
     
-    <script  src="index.js"></script>
 </body>
 </html>
