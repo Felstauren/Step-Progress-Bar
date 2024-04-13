@@ -58,39 +58,39 @@ body {
 
 
 #line1 {
-    width: 105px;
+    width: 100px;
     background-color: gray;
     height: 4px;
     position: relative;
     top:-55px;
-    left:30px
+    left:34px
 }
 
 #line2 {
-    width: 105px;
+    width: 100px;
     background-color: gray;
     height: 4px;
     position: relative;
     top:-72px;
-    left:30px
+    left:34px
 }
 
 #line3 {
-    width: 105px;
+    width: 100px;
     background-color: gray;
     height: 4px;
     position: relative;
     top:-72px;
-    left:30px
+    left:34px
 }
 
 #line4 {
-    width: 105px;
+    width: 100px;
     background-color: gray;
     height: 4px;
     position: relative;
     top:-72px;
-    left:30px
+    left:34px
 }
 
 .positionI {
